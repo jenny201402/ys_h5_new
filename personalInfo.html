@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>亚盛国际</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+</head>
+<body>
+	<!-- header-begin -->
+	<input id="checkSlide" type="checkbox">
+	<header>
+		<i class="history"></i>
+		<h4>个人资料</h4>
+	</header>
+	<!-- header-end -->
+
+	<!-- container-begin -->
+	<section id="wrapper" class="wrapper">
+		<div id="scroller" class="scroller">
+			<div class="a-l-b p-i-b">
+				<ul class="controlTab">
+					<li class="controlItem active">
+						联系资料
+					</li>
+					<li class="controlItem">
+						修改密码
+					</li>
+				</ul>
+
+				<div class="controlCont active">
+					<form class="uForm" action="">
+						<div class="line clearfix">
+							<label for="realName"><span>姓名:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="realName" name="realName" value="" type="text" placeholder="请填写真实信息用于提款验证">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="mobileCode"><span>电话号码:</span></label>
+							<div class="input code">
+		                        <input tabindex="2" id="mobileCode" name="mobileCode" value="" type="text" placeholder="完善信息获得20point">
+		                    </div>
+		                    <a href="javascript:void(0);" class="sendBtn">验&nbsp;&nbsp;证</a>
+						</div>
+						<div class="line clearfix">
+							<label for="wechat"><span>微信号码:</span></label>
+							<div class="input code">
+		                        <input tabindex="2" id="wechat" name="wechat" value="" type="text" placeholder="完善信息获得20point">
+		                    </div>
+		                    <a href="javascript:void(0);" class="sendBtn">验&nbsp;&nbsp;证</a>
+						</div>
+						<div class="line clearfix">
+							<label for="email"><span>电子邮箱:</span></label>
+							<div class="input code">
+		                        <input tabindex="2" id="email" name="email" value="" type="text" placeholder="完善信息获得20point">
+		                    </div>
+		                    <a href="javascript:void(0);" class="sendBtn">验&nbsp;&nbsp;证</a>
+						</div>
+						<div class="line clearfix">
+							<label for="address"><span>联系地址:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="address" name="address" value="" type="text" placeholder="赠送实物礼品所需，请认真填写">
+		                    </div>
+						</div>
+						<p class="tiptxt"></p>
+						<p class="text">* 注：联系资料绑定后不可以自己修改，修改需要联系 <a href="javascript:void(0);">在线客服。</a>请认真填写！</p>
+						<a href="javascript:void(0);" class="btn transferBtn">确&nbsp;认&nbsp;提&nbsp;交</a>
+					</form>
+				</div>
+
+				<div class="controlCont">
+					<form class="uForm" action="">
+						<div class="line clearfix">
+							<label for="nickName"><span>昵称:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="nickName" name="nickName" value="" type="text" placeholder="请填写昵称">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="oldPwd"><span>旧密码:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="oldPwd" name="oldPwd" value="" type="password" placeholder="请填写旧密码">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="newPwd"><span>新密码:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="newPwd" name="newPwd" value="" type="password" placeholder="请填写新密码">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="rePassword"><span>确认密码:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="rePassword" name="rePassword" value="" type="password" placeholder="请重新输入您的密码">
+		                    </div>
+						</div>
+						<p class="tiptxt"></p>
+						<p class="text">* 注：联系资料绑定后不可以自己修改，修改需要联系 <a href="javascript:void(0);">在线客服。</a>请认真填写！</p>
+						<a href="javascript:void(0);" class="btn transferBtn">确&nbsp;认&nbsp;提&nbsp;交</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- container-end -->
+
+	<!-- footer-begin -->
+	<footer>
+		<ul class="ft-nav clearfix">
+			<li>
+				<a href="./index.html" class="active">
+					<i></i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="./gameLists.html">
+					<i></i>
+					<span>游戏</span>
+				</a>
+			</li>
+			<li>
+				<a href="./deposit.html">
+					<i></i>
+					<span>存款</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">
+					<i></i>
+					<span>客服</span>
+				</a>
+			</li>
+			<li>
+				<a href="./personalCenter.html">
+					<i></i>
+					<span>我的</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer-end -->
+	<script type="text/javascript" src="lib/iscroll/iscroll.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+
+		$$.iScrollTabs("wrapper");
+
+		$(document).ready(function(){
+
+			$$.goBack();
+
+		})
+
+	</script>
+</body>
+</html>

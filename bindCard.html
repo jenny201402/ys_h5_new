@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>亚盛国际</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+</head>
+<body>
+	<!-- header-begin -->
+	<input id="checkSlide" type="checkbox">
+	<header>
+		<i class="history"></i>
+		<h4>绑定银行卡</h4>
+	</header>
+	<!-- header-end -->
+
+	<!-- container-begin -->
+	<section id="wrapper" class="wrapper">
+		<div id="scroller" class="scroller">
+			<div class="t-s-b yas">
+				<div class="title">
+					<i></i>
+					<span>请完善以下信息</span>
+				</div>
+				<div class="cont">
+					<form class="uForm" action="">
+						<div class="line clearfix">
+							<label for="username"><span>真实姓名:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="username" name="username" value="" type="text" placeholder="请输入持卡人姓名">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="idNumber"><span>身份证号:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="idNumber" name="idNumber" value="" type="text" placeholder="请输入身份证号码">
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label><span>持卡类型:</span></label>
+							<div class="input">
+		                        <select value="">
+		                        	<option name="" id="">类型一</option>
+		                        	<option name="" id="">类型二</option>
+		                        	<option name="" id="">类型三</option>
+		                        	<option name="" id="">类型四</option>
+		                        </select>
+		                    </div>
+						</div>
+						<div class="line clearfix">
+							<label for="cardNumber"><span>银行卡号:</span></label>
+							<div class="input">
+		                        <input tabindex="2" id="cardNumber" name="cardNumber" value="" type="text" placeholder="请输入银行卡号">
+		                    </div>
+						</div>
+						<p class="tiptxt"></p>
+						<p class="text">* 注：身份证新信息、银行卡信息必须一致，账号信息一旦绑定，不能进行修改，请妥善保管好您的资料。同一个身份证、银行卡信息只能绑定一个账号。</p>
+						<a href="javascript:void(0);" class="btn transferBtn">确&nbsp;认&nbsp;提&nbsp;交</a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- container-end -->
+
+	<!-- footer-begin -->
+	<footer>
+		<ul class="ft-nav clearfix">
+			<li>
+				<a href="./index.html" class="active">
+					<i></i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="./gameLists.html">
+					<i></i>
+					<span>游戏</span>
+				</a>
+			</li>
+			<li>
+				<a href="./deposit.html">
+					<i></i>
+					<span>存款</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">
+					<i></i>
+					<span>客服</span>
+				</a>
+			</li>
+			<li>
+				<a href="./personalCenter.html">
+					<i></i>
+					<span>我的</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer-end -->
+	<script type="text/javascript" src="lib/iscroll/iscroll.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+
+		$$.iScrollForms("wrapper");
+
+		$(document).ready(function(){
+
+			$$.goBack();
+
+		})
+
+	</script>
+</body>
+</html>

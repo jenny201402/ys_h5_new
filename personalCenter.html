@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>亚盛国际</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+</head>
+<body>
+	<!-- header-begin -->
+	<input id="checkSlide" type="checkbox">
+	<header>
+		<i class="history"></i>
+		<h4>个人中心</h4>
+	</header>
+	<!-- header-end -->
+
+	<!-- container-begin -->
+	<section id="wrapper" class="wrapper">
+		<div id="scroller" class="scroller">
+			<div class="p-s-c">
+				<div class="top clearfix">
+					<i class="pull-left"></i>
+					<span class="sayHello">你好，大帅比！</span>
+					<a href="javascript:void(0)" class="btn pull-right">退出登录</a>
+				</div>
+				<ul class="cont clearfix">
+					<li>
+						<a class="aniGo" href="./personalInfo.html">
+							<img src="./images/personalCenter/p-c-1.png" alt="">
+							<span>个人资料</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./deposit.html">
+							<img src="./images/personalCenter/p-c-2.png" alt="">
+							<span>存款</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./withdraw.html">
+							<img src="./images/personalCenter/p-c-3.png" alt="">
+							<span>提款</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./transfer.html">
+							<img src="./images/personalCenter/p-c-4.png" alt="">
+							<span>转账</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./tradeRecord.html">
+							<img src="./images/personalCenter/p-c-5.png" alt="">
+							<span>交易记录</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./transRecord.html">
+							<img src="./images/personalCenter/p-c-6.png" alt="">
+							<span>转账记录</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./returnProfit.html">
+							<img src="./images/personalCenter/p-c-7.png" alt="">
+							<span>自助优惠</span>
+						</a>
+					</li>
+					<li>
+						<a class="aniGo" href="./vipStore.html">
+							<img src="./images/personalCenter/p-c-8.png" alt="">
+							<span>VIP商城</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<!-- container-end -->
+
+	<!-- footer-begin -->
+	<footer>
+		<ul class="ft-nav clearfix">
+			<li>
+				<a href="./index.html" class="active">
+					<i></i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="./gameLists.html">
+					<i></i>
+					<span>游戏</span>
+				</a>
+			</li>
+			<li>
+				<a href="./deposit.html">
+					<i></i>
+					<span>存款</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">
+					<i></i>
+					<span>客服</span>
+				</a>
+			</li>
+			<li>
+				<a href="./personalCenter.html">
+					<i></i>
+					<span>我的</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer-end -->
+	<script type="text/javascript" src="lib/iscroll/iscroll.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+
+		$$.iScrollForms("wrapper");
+
+		$(document).ready(function(){
+
+			$$.goBack();
+
+			$$.dptForm();
+
+		})
+
+	</script>
+</body>
+</html>

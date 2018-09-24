@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>亚盛国际</title>
+	<link rel="stylesheet" href="css/layout.css">
+	<link rel="stylesheet" href="./lib/newSwiper/dist/css/swiper.min.css">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+</head>
+<body>
+	<!-- header-begin -->
+	<input id="checkSlide" type="checkbox">
+	<header>
+		<i class="history"></i>
+		<h4>游戏大厅</h4>
+	</header>
+	<!-- header-end -->
+	
+	<section class="search">
+		<input type="text" placeholder="请输入游戏名称...">
+		<i></i>
+	</section>
+
+	<div class="menu">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide active"><a href="javascript:void(0);">PT</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">MG</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">BBIN</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">TTG</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">PNG</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">BS</a></div>
+            <div class="swiper-slide"><a href="javascript:void(0);">SB</a></div>
+        </div>
+    </div>
+
+
+	<!-- container-begin -->
+	<section id="wrapper" class="wrapper gamesWrap">
+		<div id="scroller" class="scroller">
+			<ul class="gameLists clearfix">
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-1.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-2.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-3.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-4.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-5.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-6.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-7.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-8.png" alt="">
+					<p>白色狮王</p>
+				</li>
+				<li class="item pull-left">
+					<img src="./images/gameList/pt/game-9.png" alt="">
+					<p>白色狮王</p>
+				</li>
+			</ul>
+			<div class="btnGroup">
+				<a href="javascript:void(0);">显示更多</a>
+			</div>
+		</div>
+	</section>
+	<!-- container-end -->
+
+	<!-- footer-begin -->
+	<footer>
+		<ul class="ft-nav clearfix">
+			<li>
+				<a href="./index.html" class="active">
+					<i></i>
+					<span>首页</span>
+				</a>
+			</li>
+			<li>
+				<a href="./gameLists.html">
+					<i></i>
+					<span>游戏</span>
+				</a>
+			</li>
+			<li>
+				<a href="./deposit.html">
+					<i></i>
+					<span>存款</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0);">
+					<i></i>
+					<span>客服</span>
+				</a>
+			</li>
+			<li>
+				<a href="./personalCenter.html">
+					<i></i>
+					<span>我的</span>
+				</a>
+			</li>
+		</ul>
+	</footer>
+	<!-- footer-end -->
+	<script type="text/javascript" src="lib/iscroll/iscroll.js"></script>
+	<script type="text/javascript" src="./lib/newSwiper/dist/js/swiper.min.js"></script>
+	<script src="js/common.js"></script>
+	<script type="text/javascript">
+
+		$$.iScrollForms("wrapper");
+
+		$(document).ready(function(){
+
+			$$.goBack();
+
+			$$.dptForm();
+
+			$$.swiperMenu();		
+
+		})
+
+	</script>
+</body>
+</html>
